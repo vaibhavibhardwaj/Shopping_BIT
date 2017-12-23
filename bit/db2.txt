@@ -1,0 +1,19 @@
+<?php
+$conn=mysql_connect("localhost","root","admin");
+$db=mysql_select_db("p2p");
+
+
+function profilebook($profile)
+{
+$query="select * from books where profile like '".$profile."';";
+//echo $query;
+$data=mysql_query($query);
+//print_r($data);
+return $data;
+}
+
+
+
+
+
+?>

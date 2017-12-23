@@ -1,0 +1,52 @@
+.box
+{
+    background-image: url('bulb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #FFFFFF;
+}
+
+.jumbotron
+{
+text-align:center;
+    background-position: right center;
+    padding-left: 10px;
+    font-family: Times New Roman;
+ 
+    
+}
+
+.headerlist
+{
+    background-color: #CCCCCC;
+    font-family: 'Arial Rounded MT Bold';
+       cursor: nw-resize;
+    text-decoration: blink;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer {
+background-color: #CCCCCC;
+text-align: center;
+clear:right;
+
+}
+.regform{
+clear:right;
+float:right;border:1px solid black;padding:5px;width:48%;text-align:center;
+}
+
+.steps
+{
+   
+    clear: left;
+    float: left;
+    border: 1px solid black;
+    padding: 5px;
+    width: 48%;
+    text-align: center;
+    list-style-type: lower-latin;
+    list-style-position: inherit;
+}
